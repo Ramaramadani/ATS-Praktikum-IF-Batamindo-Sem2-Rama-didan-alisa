@@ -15,7 +15,7 @@
         <div id="mega-menu-full-image" class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
             <ul class="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse">
                 <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Home</a>
+                    <a href="{{ url('/index') }}" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Home</a>
                 </li>
                 <li>
                     <button id="mega-menu-full-cta-image-button" data-collapse-toggle="mega-menu-full-image-dropdown" class="flex items-center justify-between w-full py-2 px-3 font-medium text-gray-900 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Company <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -23,13 +23,13 @@
   </svg></button>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Marketplace</a>
+                    <a href="{{ url('/marketplace') }}" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Marketplace</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Resources</a>
+                    <a href="{{ url('/resources') }}" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Resources</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                    <a href="{{ url('/contact') }}" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
                 </li>
             </ul>
         </div>
@@ -38,44 +38,44 @@
         <div class="grid max-w-screen-xl px-4 py-5 mx-auto text-sm text-gray-500 dark:text-gray-400 md:grid-cols-3 md:px-6">
             <ul class="hidden mb-4 space-y-4 md:mb-0 md:block" aria-labelledby="mega-menu-full-image-button">
                 <li>
-                    <a href="#" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+                    <a href="{{ url('/online-stores') }}" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
                         Online Stores
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+                    <a href="{{ url('/segmentation') }}" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
                         Segmentation
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+                    <a href="{{ url('/marketing-crm') }}" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
                         Marketing CRM
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+                    <a href="{{ url('/online-stores') }}" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
                         Online Stores
                     </a>
                 </li>
             </ul>
             <ul class="mb-4 space-y-4 md:mb-0">
                 <li>
-                    <a href="#" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+                    <a href="{{ url('/our-blog') }}" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
                         Our Blog
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+                    <a href="{{ url('/terms') }}" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
                         Terms & Conditions
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+                    <a href="{{ url('/license') }}" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
                         License
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+                    <a href="{{ url('/resources') }}" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
                         Resources
                     </a>
                 </li>
