@@ -11,19 +11,19 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         @include('components.card', [
-            'imgsrc' => 'images/ferrari-sf90.jpg',
+            'imgsrc' => 'images/huracan.jpeg',
             'title' => 'Ferrari SF90 Stradale Meluncur di Batam',
             'desc' => 'Supercar hybrid terbaru Ferrari ini terlihat di jalanan Batam dengan spesifikasi menakjubkan: 1000 HP, 0-100 km/jam dalam 2.5 detik!'
         ])
 
         @include('components.card', [
-            'imgsrc' => 'images/lamborghini-revuelto.jpg',
+            'imgsrc' => 'images/aventador.jpeg',
             'title' => 'Lamborghini Revuelto: The New V12 Hybrid',
             'desc' => 'Lamborghini menghadirkan penerus Aventador dengan teknologi hybrid namun tetap mempertahankan soul V12 yang legendaris.'
         ])
 
         @include('components.card', [
-            'imgsrc' => 'images/batam-supercar-meet.jpg',
+            'imgsrc' => 'images/galardo.jpeg',
             'title' => 'Supercar Meet Batam 2023',
             'desc' => 'Event tahunan para pecinta supercar di Batam kembali digelar dengan lebih dari 50 unit mobil eksotis dari berbagai merek ternama.'
         ])
