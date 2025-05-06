@@ -9,7 +9,42 @@
     <script src="styles/flowbite.min.js"></script>
 </head>
 <body class="bg-gray-100 text-gray-800 font-sans">
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="@yield('description', 'Laravel App')">
+    <title>@yield('title', 'Laravel App')</title>
 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/flowbite.min.css" />
+    <script src="styles/flowbite.min.js" defer></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+    <!-- Navbar -->
+    @include('components.menu')
+
+    <!-- Main Content -->
+    <main class="container mx-auto mt-10 px-4">
+        <div class="bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-xl font-semibold mb-4">@yield('page_title', 'Judul Halaman')</h2>
+            @yield('content')
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-10 text-center text-sm text-gray-500 py-4 border-t">
+        &copy; {{ date('Y') }} Laravel App. All rights reserved.
+    </footer>
+
+    <!-- Scripts -->
+    @stack('scripts')
+</body>
+</html>
+```
     <!-- Navbar -->
     @include('components.menu')
 
